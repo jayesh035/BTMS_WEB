@@ -1,0 +1,14 @@
+.con
+{
+  
+  border: 2px solid black;
+  height: 1000px;
+  background-image: url('../img/cr_3.jpg');
+  background-size: cover;
+  
+  
+}
+img{
+    height: 500;
+    width: 1000;
+}
