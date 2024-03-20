@@ -3,12 +3,15 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import AdvanceBooking from './components/AdvanceBooking';
 
+
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import Home from './components/Home';
+import Crausel from './components/Crausel';
+
+// import crausel from './components/crausel';
 function App() {
   return (
     <>
@@ -22,11 +25,11 @@ function App() {
         <AdvanceBooking/>
 
       </Route>
-      <Route exact path="/">
-      
-      <Home/>
+   <Route exact path="/">
+<Crausel/>
+   </Route>
 
-    </Route>
+    
     </Switch>
     </Router>
     
