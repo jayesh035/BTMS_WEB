@@ -1,0 +1,17 @@
+.container
+{
+    margin-top: 6rem;
+}
+
+.add_routs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_button
+{
+    height: 35px;
+    margin-left: 0.6rem;
+    
+}

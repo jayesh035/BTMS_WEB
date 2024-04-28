@@ -1,5 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link,Outlet} from "react-router-dom"
+
+
 const Navbar = (props) => {
   return (
     <>
@@ -18,16 +20,32 @@ const Navbar = (props) => {
         <li className="nav-item">
           <Link className="nav-link " aria-current="page" to="/AdvanceBooking">Advance Booking</Link>
         </li>
-        
 
-    
+        <li className="nav-item">
+          <Link className="nav-link " aria-current="page" to="/add_bus">Add Bus</Link>
+        </li>
+ 
       
+      </ul>
+
+    </div>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link className="nav-link " aria-current="page" to="/login">Login</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link " aria-current="page" to="/sign_up">Sign up</Link>
+        </li>      
       </ul>
 
     </div>
   </div>
 </nav>
+
 </>
   );
 };
 export default Navbar;
+
+
